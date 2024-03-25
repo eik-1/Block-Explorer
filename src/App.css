@@ -33,12 +33,17 @@ body {
 .details {
   color: #EEEEEE;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   padding: 30px;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: #31363F;
-  height: 400px;
+  height: 350px;
   width: 1000px;
   border-radius: 25px;
   margin-top: 20px;
+}
+
+#blocknum {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
